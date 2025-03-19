@@ -7,6 +7,7 @@
 
 .header_menu {
     max-width: 392px;
+    font-size: 18px;
     
 }
 
@@ -34,11 +35,13 @@
     max-width: 240px;
     font-style: normal;
     border: 1px; 
+    line-height: 1.4;
 }
 
 .address {
     list-style: none;
     font-size: 18px;
+    font-style: normal;
 }
 
 .header_menu-list-item {
@@ -65,7 +68,7 @@
     flex-wrap: wrap;
     align-content: space-between;
     width: 1052px;
-    margin: 180px 24px 120px;
+    margin: 176px 24px 120px;
 }
 
 .about { 
@@ -74,7 +77,7 @@
     width: 1052px;
     padding: 0 0 0 47px;
     gap: 72px;
-    margin: 120px 24px 180px;
+    margin: 120px 24px 182px;
 }
 
 .footer { 
@@ -104,10 +107,6 @@
     text-transform: uppercase;
 }
 
-.aligned-text_left {
-    
-    
-}
 
 .aligned-text_center {
     display: block;
@@ -120,7 +119,7 @@
     text-align: end;
 }
 
-.o {
+.no-letter-spacing {
     letter-spacing: 0;
 }
 
@@ -138,17 +137,19 @@
     justify-content: space-between;
     width: 1000px;
     z-index: 1;
-    margin-top: 106px;
+    margin-top: 106px;    
 }
 
 .subline {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     font-weight: 400;
     font-size: 22px;
     color: white;
-    word-spacing: 20px;
+    word-spacing: 18.5px;
     text-transform: uppercase;
+    
 }
 
 .bet-button {
@@ -252,13 +253,15 @@
     font-size: 40px;
     padding-top: 136px;
     text-transform: uppercase;
-    margin-bottom: 100px;
+    margin-bottom: 104px;
+    line-height: 100%;
 }
 
 .about_text {
    max-width: 693px;
    font-size: 20px;
    gap: 24px;
+   line-height: 24px;
 }
 
 .about_column-logo {
@@ -273,18 +276,19 @@
     margin-top: 24px;
 }
 
-
 .footer_menu-link-active { 
     text-decoration: none;
 }
 
 .footer_address {
     justify-self: center;
+    line-height: 1.35;
 }
 
 .footer_menu { 
     font-size: 18px;
-    line-height: 1.1;
+    line-height: 1.2; 
+    
 }
 
 .footer_menu-list {
@@ -308,4 +312,5 @@
 .address-link { 
     text-decoration: none;
     border-bottom: 1px solid #000;
+    
 }
